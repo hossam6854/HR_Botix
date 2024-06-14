@@ -1,0 +1,3 @@
+[submodule "hrbotix"]
+	path = hrbotix
+	url = https://github.com/hossam6854/hrbotix.git

@@ -1,0 +1,55 @@
+.container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .form-group123 {
+    margin-bottom: 15px;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgb(255, 146, 146);
+  }
+  
+  .select-field {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgb(255, 146, 146);
+  }
+  
+  .button {
+    padding: 10px;
+    background-color: #ff7777;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 4px rgba(163, 113, 255, 0.964);
+  }
+  
+  .button:hover {
+    background-color: #fca399;
+  }
+  .padddd{
+    padding-bottom: 100px;
+  }
+  .button123{
+    padding: 10px;
+    margin-left: 630px;
+    background-color: #9d9aff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgb(254, 122, 122);
+  }
+
+  .button123:hover {
+    background-color: #bebcfd;
+  }
