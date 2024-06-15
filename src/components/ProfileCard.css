@@ -1,0 +1,116 @@
+.profile-card {
+  background: linear-gradient(135deg, #ffb0b0, #f87676);
+  color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  margin-bottom: 200px;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  transition: transform 0.3s ease, background 0.3s ease, box-shadow 0.3s ease;
+  animation: fadeIn 0.6s ease-out;
+  overflow: hidden;
+  position: relative;
+}
+
+.profile-card:hover {
+  background: linear-gradient(135deg, #f87676, #ffb0b0);
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.profile-card h2 {
+  margin-bottom: 10px;
+}
+
+.profile-card p {
+  margin: 5px 0;
+}
+
+.profile-card strong {
+  font-weight: bold;
+}
+
+.profile-card ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.profile-card ul li {
+  margin-left: 20px;
+  padding-left: 20px;
+  position: relative;
+  margin-bottom: 5px;
+  transition: color 0.3s ease, background 0.3s ease;
+}
+
+.profile-card ul li:before {
+  content: "\2022";
+  color: #fff;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+}
+
+.profile-card ul li:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.profile-card ul li:hover {
+  color: #f87676;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.recommended-job {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  border-radius: 15px;
+  position: relative;
+  overflow: hidden;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.recommended-job p {
+  font-size: 1.4em;
+  font-weight: bold;
+  margin: 0;
+  padding: 10px 0;
+  text-align: center;
+  background: linear-gradient(90deg, #ff7e7e, #b399fd);
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  animation: glow 1.5s infinite alternate;
+}
+
+.recommended-job:hover {
+  background: rgba(255, 255, 255, 0.4);
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.skills, .education {
+  margin-top: 20px;
+}
+
+.skills ul, .education ul {
+  padding-left: 20px;
+}
+
+.skills li, .education li {
+  margin-bottom: 10px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skills li:hover, .education li:hover {
+  transform: translateX(10px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(-20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}

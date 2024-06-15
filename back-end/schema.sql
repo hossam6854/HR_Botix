@@ -1,0 +1,32 @@
+CREATE DATABASE IF NOT EXISTS `Jobs`;
+
+USE `Jobs`;
+
+CREATE TABLE IF NOT EXISTS `Users` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `userName` VARCHAR(255) NOT NULL,
+  `firstName` VARCHAR(255) NOT NULL,
+  `lastName` VARCHAR(255) NOT NULL,
+  `email` VARCHAR(255) NOT NULL,
+  `password` VARCHAR(255) NOT NULL,
+  `gender` VARCHAR(255) NOT NULL,
+  `phone` VARCHAR(255) NOT NULL,
+  `accountType` VARCHAR(255) NOT NULL,
+  `jobSpeciality` VARCHAR(255),
+  `createdAt` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `updatedAt` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`),
+  UNIQUE INDEX `userName_UNIQUE` (`userName` ASC) VISIBLE
+);
+
+CREATE TABLE IF NOT EXISTS `Jobs` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `jobTitle` VARCHAR(255) NOT NULL,
+  `createdAt` DATETIME NOT NULL,
+  `company` VARCHAR(255) NOT NULL,
+  `firstName` VARCHAR(255) NOT NULL,
+  `lastName` VARCHAR(255) NOT NULL,
+  `skills` VARCHAR(255),
+  `jobType` ENUM('Full Time', 'Part Time', 'Contract'),
+  PRIMARY KEY (`id`)
+);

@@ -1,0 +1,63 @@
+.moveeeee{
+    margin: 300px;
+    margin-left: 500px;
+}
+
+
+
+
+
+
+.progressbar{
+	position: relative;
+	overflow: hidden;
+	width: 550px;
+	height: 35px;
+	border-radius: 5px;
+	background-color: #eee;
+}
+
+.progressPercent{
+	font-weight: 600;
+	font-family:'Franklin Gothic Medium';
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	color: #ff9a9a;
+	text-shadow: -1px 0 #555, 0 1px #555, 1px 0 #555, 0 -1px #555;
+}
+
+.btnnn1{
+	display: block;
+	border: none;
+	border-radius: 3px;     
+	outline: none;
+	width: 100px;
+	height: 40px;
+	background-color: #ff9b9b;
+	transition: box-shadow 0.5s;
+	font-size: 16px;
+	font-family:arial;
+	color: #fff;
+	cursor: pointer;
+    margin-left: 220px;
+}
+
+
+.padddd{
+    padding-top: 20px;
+}
+
+.nammm{
+    font-size: 22px;
+    margin-left: 180px;
+    padding-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #761919;
+}
+
+.btnnn1:hover{
+	-webkit-box-shadow: inset 100px 0 0 0 #ff6868;
+    box-shadow: inset 100px 0 0 0 #ff6b6b;
+}

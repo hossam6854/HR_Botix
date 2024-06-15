@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: aliceblue;
+    background-size: cover;
+  }
+  
+  .farewell-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    position: relative;
+  }
+  
+  .farewell-content {
+    max-width: 800px;
+    padding: 30px;
+    background: rgb(255, 95, 95);
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgb(164, 144, 244);
+    animation: fadeIn 2s ease-in-out, colorChange 5s infinite alternate;
+    backdrop-filter: blur(10px);
+  }
+  
+  .farewell-message {
+    font-size: 3em;
+    margin-bottom: 20px;
+    animation: textPopUp 1s ease-in-out;
+    color: #6670f8;
+  }
+  
+  .farewell-text {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    animation: textFadeIn 2s ease-in-out;
+    color: #ffffff;
+  }
+  
+  .farewell-signature {
+    font-size: 1.5em;
+    font-style: italic;
+    animation: textFadeIn 2s ease-in-out;
+    color: #3b2ce4;
+  }
+  
+  .farewell-footer {
+    position: absolute;
+    bottom: 10px;
+    animation: footerFadeIn 3s ease-in-out;
+  }
+
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes textPopUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes textFadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes footerFadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes colorChange {
+    0% {
+      background: rgb(89, 164, 250);
+    }
+    100% {
+      background: rgb(251, 126, 126);
+    }
+  }
+  
