@@ -50,13 +50,13 @@ import React, { useEffect, useState } from 'react';
                         <Link to="" className="nav-link" id="acctive"><span data-hover="Home">Home</span></Link>
                     </li>
                     <li className="nav-item">
-                      <Link to="/cvmatch" className="nav-link"><span data-hover="Jops">Match cv</span></Link>
+                      <Link to="/cvmatch" className="nav-link"><span data-hover="Jobs">Match cv</span></Link>
                     </li>
                     <li className="nav-item">
                       <Link to="/creartcvhr" className="nav-link"><span data-hover="CVs">Create CV</span></Link>
                     </li>
                     <li className="nav-item">
-                        <Link to="/searchUserhr" className="nav-link"><span data-hover="Review">jop seekers search</span></Link>
+                        <Link to="/searchUserhr" className="nav-link"><span data-hover="Review">job seekers search</span></Link>
                     </li>
                 </ul>
 
@@ -110,7 +110,7 @@ import React, { useEffect, useState } from 'react';
                         <p>Create a Attractive CV is a challenge. We are very active in creating and designing CVs and recruiting job seekers</p>
                         
                         <div className="custom-btn-group mt-4">
-                          <a href="/search" className="btn custom-btn custom-btn-bg custom-btn-link">Find a job seekers</a>
+                          <a href="/searchUserhr" className="btn custom-btn custom-btn-bg custom-btn-link">Find a job seekers</a>
                         </div>
                     </div>
                 </div>

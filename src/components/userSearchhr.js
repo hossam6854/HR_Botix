@@ -105,13 +105,13 @@ const userStyle = {
                         <Link to="/homehr" className="nav-link"><span data-hover="Home">Home</span></Link>
                     </li>
                     <li className="nav-item">
-                      <Link to="/cvmatch" className="nav-link"><span data-hover="Jops">Match cv</span></Link>
+                      <Link to="/cvmatch" className="nav-link"><span data-hover="Jobs">Match cv</span></Link>
                     </li>
                     <li className="nav-item">
                       <Link to="/creartcvhr" className="nav-link"><span data-hover="CVs">Create CV</span></Link>
                     </li>
                     <li className="nav-item">
-                        <Link to="" className="nav-link" id="acctive"><span data-hover="Review">jop seekers search</span></Link>
+                        <Link to="" className="nav-link" id="acctive"><span data-hover="Review">job seekers search</span></Link>
                     </li>
                 </ul>
 

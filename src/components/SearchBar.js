@@ -28,7 +28,7 @@ export const SearchBar = ({ results, setResults }) => {
         if (searchOption === "globally" && input !== "") {
           let newResults = [];
           console.log(json.jobs)
-          if(json.jobs === undefined || json.statusCode === 404) {
+          if(json.jobs === undefined || json.statusCode === 404 || json.jobs===undefined) {
             return;
           }
           for(const job of json.jobs) {

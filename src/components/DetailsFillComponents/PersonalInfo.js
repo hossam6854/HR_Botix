@@ -146,7 +146,7 @@ function PersonalInfo(props) {
           <div className="col-lg-9 pt-50 ">
                 <div className='row '>
                   <div className='col-sm-2'>
-                    <label htmlFor="inputCity" className="col-form-label">City*</label>
+                    <label htmlFor="inputCity" className="col-form-label">State*</label>
                   </div>
                   <div className="col-sm-10 col-12">
                     <TextField type="text"  elementId="inputCity" 
@@ -164,7 +164,7 @@ function PersonalInfo(props) {
           <div className="col-lg-9 pt-50 ">
                 <div className='row '>
                   <div className='col-sm-2'>
-                    <label htmlFor="inputState"className="col-form-label" >State</label>
+                    <label htmlFor="inputState"className="col-form-label" >City</label>
                   </div>
                   <div className='col-sm-10  col-12'>
                     <select id="inputState" className="form-control" value={personalHeads.State}
@@ -175,7 +175,7 @@ function PersonalInfo(props) {
                               }))
                             }}
                     >
-                        <option>Select State</option>
+                        <option>Select City</option>
                         {stateNames.map((state,i)=>{
                           return(
                             <option key={i} value={state}>

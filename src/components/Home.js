@@ -4,6 +4,9 @@ import chatbotIcon from './assets/images/Beige Butterfly Flower Shop Logo.png'; 
 import sendIcon from './assets/images/3795222.png'; // Add your send icon here
 import './home/css/style.css';
 import React, { useEffect, useState } from 'react';
+import './home/css/bootstrap.min.css'
+import './home/css/unicons.css'
+import './create-cv/css/main.css'
 
 function Home() {
   const [users] = useState([]);
@@ -76,7 +79,7 @@ function Home() {
                 <Link to="" className="nav-link" id="acctive"><span data-hover="Home">Home</span></Link>
               </li>
               <li className="nav-item">
-                <Link to="/search" className="nav-link"><span data-hover="Jops">Find Jop</span></Link>
+              <Link to="/search" className="nav-link"><span data-hover="Jobs">Find Job</span></Link>
               </li>
               <li className="nav-item">
                 <Link to="/homeee" className="nav-link"><span data-hover="CVs">Create CV</span></Link>

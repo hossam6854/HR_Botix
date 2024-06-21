@@ -99,7 +99,7 @@ import "./cv-template/css/vendor.css"
             <div class="col-lg-6 align-self-center">
                 <div class="item header-text">
                   <h6>Welcome to HRBOTIX</h6>
-                  <h2>Find <em>A jop</em> smoothly and easily in <span>HRBOTIX</span></h2>
+                  <h2>Find <em>A job</em> smoothly and easily in <span>HRBOTIX</span></h2>
                   <div class="down-buttons">
                     <div class="main-blue-button-hover">
                     <Link to="/log">Sign up Now</Link>

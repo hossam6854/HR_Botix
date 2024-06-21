@@ -50,7 +50,7 @@ import React, { useEffect, useState } from 'react';
                         <Link to="" className="nav-link" id="acctive"><span data-hover="Home">Home</span></Link>
                     </li>
                     <li className="nav-item">
-                      <Link to="/addjop" className="nav-link"><span data-hover="Jops">add Jop</span></Link>
+                      <Link to="/addjob" className="nav-link"><span data-hover="Jobs">add Job</span></Link>
                     </li>
 
                     <li className="nav-item">
@@ -100,7 +100,7 @@ import React, { useEffect, useState } from 'react';
                             <span className="lier">Hey {localStorage.getItem("firstName") ? `${localStorage.getItem("firstName")}` : "folks"}, happy to help you to</span>
                                 <div className="animated-info">
                                     <span className="animated-item">Find a Employee</span>
-                                    <span className="animated-item">add jops</span>
+                                    <span className="animated-item">add jobs</span>
                                 </div>
                         </h1>
 

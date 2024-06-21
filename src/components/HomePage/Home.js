@@ -58,7 +58,7 @@ function Homeee() {
                         <Link to="/home" className="nav-link" ><span data-hover="Home">Home</span></Link>
                     </li>
                     <li className="nav-item">
-                      <Link to="/search" className="nav-link"><span data-hover="Jops">Find Jop</span></Link>
+                      <Link to="/search" className="nav-link"><span data-hover="Jobs">Find Job</span></Link>
                     </li>
                     <li className="nav-item">
                       <Link to="" className="nav-link" id="acctive"><span data-hover="CVs">Create CV</span></Link>

@@ -26,6 +26,7 @@ CREATE TABLE IF NOT EXISTS `Jobs` (
   `company` VARCHAR(255) NOT NULL,
   `firstName` VARCHAR(255) NOT NULL,
   `lastName` VARCHAR(255) NOT NULL,
+  `email` VARCHAR(255) NOT NULL,  
   `skills` VARCHAR(255),
   `jobType` ENUM('Full Time', 'Part Time', 'Contract'),
   PRIMARY KEY (`id`)

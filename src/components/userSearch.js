@@ -104,7 +104,7 @@ const userStyle = {
                         <Link to="/homebusinessman" className="nav-link"><span data-hover="Home">Home</span></Link>
                     </li>
                     <li className="nav-item">
-                      <Link to="/addjop" className="nav-link"><span data-hover="Jops">add Jop</span></Link>
+                      <Link to="/addjob" className="nav-link"><span data-hover="Jobs">add Job</span></Link>
                     </li>
 
                     <li className="nav-item">

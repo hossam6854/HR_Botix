@@ -9,11 +9,10 @@ import Search from "./searchActive";
 import Log from "./components/LOG";
 import Mainpage from "./components/main-page";
 import Home from "./components/Home";
-import Createcv from "./components/creat-cv";
 import Cvreview from "./components/cv-review";
 import ContextWrapper from "./context/ContextWrapper";
 import Calendar from "./calendar";
-import Addjop from "./add-jop";
+import Addjob from "./add-job";
 import Cvmatch from './components/cv-match';
 import UserSearch from './components/userSearch';
 import HomeBusinessman from "./components/Home-Businessman";
@@ -43,9 +42,8 @@ function App() {
                   <Route path="/log" element={<Log />} />
                   <Route path="/" element={<Mainpage />} />
                   <Route path="/home" element={<Home />} />
-                  <Route path="/createcv" element={<Createcv />} />
                   <Route path="/cvreview" element={<Cvreview />} />
-                  <Route path="/addjop" element={<Addjop />} />
+                  <Route path="/addjob" element={<Addjob />} />
                   <Route path="/cvmatch" element={<Cvmatch />} />
                   <Route path="/searchUser" element={<UserSearch />} />
                   <Route path="/homebusinessman" element={<HomeBusinessman />} />

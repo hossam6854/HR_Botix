@@ -104,6 +104,7 @@ function Calendar() {
           </button></Link>
         </li>
       </nav>
+      
       <React.Fragment>
         {showEventModal && <EventModal />}
         <div className="h-screen flex flex-col">
@@ -114,6 +115,16 @@ function Calendar() {
           </div>
         </div>
       </React.Fragment>
+
+
+
+
+
+
+
+
+
+
       <div id="contact11">
         <div className="main-content1">
           <div className="left box1">

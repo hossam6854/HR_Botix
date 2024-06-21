@@ -108,13 +108,13 @@ function submitFile() {
                         <Link to="/homehr" className="nav-link"><span data-hover="Home">Home</span></Link>
                     </li>
                     <li className="nav-item">
-                      <Link to="" className="nav-link" id="acctive"><span data-hover="Jops">Match cv</span></Link>
+                      <Link to="" className="nav-link" id="acctive"><span data-hover="Jobs">Match cv</span></Link>
                     </li>
                     <li className="nav-item">
                       <Link to="/creartcvhr" className="nav-link"><span data-hover="CVs">Create CV</span></Link>
                     </li>
                     <li className="nav-item">
-                        <Link to="/searchUserhr" className="nav-link"><span data-hover="Review">jop seekers search</span></Link>
+                        <Link to="/searchUserhr" className="nav-link"><span data-hover="Review">job seekers search</span></Link>
                     </li>
                 </ul>
 
